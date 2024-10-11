@@ -3,11 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/output.css">
     <title>Document</title>
 </head>
-<body>
-    <h1 class="text-fuchsia-700 text-4xl font-bold text-center">Hello World!</h1>
-    <h2>Olá</h2>
+<body class="antialiased">
+    <header class="bg-[#9D1460]">
+        <div class="w-full m-auto flex justify-around p-4">
+            <div class="w-24 hidden md:block ">
+                <img src="./src/assets/horizontal-logo.png" alt="logo ionva">
+            </div>
+            <nav class="flex items-center 0">
+                <ul class="flex gap-4 text-white lg:text-lg">
+                    <a href="#" class="hover:text-neutral-300 transition">
+                        <li>Sobre</li>
+                    </a>
+                    <a href="#" class="hover:text-neutral-300 transition">
+                        <li>Realizadores</li>
+                    </a>
+                    <a href="#" class="hover:text-neutral-300 transition">
+                        <li>Contato</li>
+                    </a>
+                </ul>
+            </nav>
+            <div class="flex items-center">
+                <button class="bg-[#FFED0B] p-4 rounded-lg font-bold transition hover:bg-[#ffc918] hover:scale-110">
+                    INSCREVA-SE
+                </button>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
